@@ -10,7 +10,7 @@ namespace ArduinoOpenCV
 {
     internal class Utils
     {
-        static string cascadePath = "C:\\Users\\Ucenik2\\Desktop\\haarcascade_frontalface_alt.xml";
+        static string cascadePath = "C:\\Users\\U22\\Desktop\\haarcascade_frontalface_alt.xml";
 
         public static void SaveFaces(String path, List<Mat> faces)
         {
