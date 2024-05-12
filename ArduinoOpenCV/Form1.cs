@@ -55,7 +55,6 @@ namespace ArduinoOpenCV
 
                 Cv2.Resize(frame, frame, new OpenCvSharp.Size(1280, 720));
                 string a = port.ReadExisting();
-                label4.Text = a.ToString();
                 if (!string.IsNullOrEmpty(a) && a.Contains("1"))
                 {
                     Rect[] faces = Utils.DetectFacesOnImage(frame);
